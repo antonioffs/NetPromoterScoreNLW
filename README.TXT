@@ -18,3 +18,6 @@ yarn jest @types/jest -D
 yarn jest --init
 yarn add jest @types/jest -D
 yarn add supertest @types/supertest -D
+yarn add nodemailer
+yarn add @types/nodemailer -D
+yarn add handlebars
