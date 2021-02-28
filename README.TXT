@@ -1,4 +1,4 @@
-Comandos usados para packages dependentes e yarn
+Comandos usados para packages dependentes com yarn
 
 
 yarn init -y 
