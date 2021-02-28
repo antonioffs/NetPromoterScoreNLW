@@ -21,5 +21,8 @@ yarn add supertest @types/supertest -D
 yarn add nodemailer
 yarn add @types/nodemailer -D
 yarn add handlebars
+<<<<<<< HEAD
 yarn add yup
 yarn add express-async-errors
+=======
+>>>>>>> c4af1da049ff7fe7a4340fd0c6d71bef8e97b59a
