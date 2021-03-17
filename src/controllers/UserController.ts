@@ -20,9 +20,9 @@ class UserController{
             throw new AppError(err)
         }
 
-        const usersRespository = getCustomRepository(UsersRepository);
+        const usersRepository = getCustomRepository(UsersRepository);
 
-        const userAlreadyExists = await usersRespository.findOne({
+        const userAlreadyExists = await usersRepository.findOne({
             email
         });
 
@@ -30,11 +30,11 @@ class UserController{
             throw new AppError("User already exists!", 400)
         }
         
-        const user = usersRespository.create({
+        const user = usersRepository.create({
             name, email
         });
 
-        await usersRespository.save(user);
+        await usersRepository.save(user);
 
         return response.status(201).json(user);
     }
